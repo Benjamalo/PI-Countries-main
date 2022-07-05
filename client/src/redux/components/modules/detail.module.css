@@ -1,0 +1,136 @@
+.container {
+    /* margin: 0;
+    height: 98vh; */
+    /* width: 98vw;
+    overflow: scroll;
+    display: flex; */
+    background-image: url(https://img1.goodfon.com/wallpaper/nbig/2/6a/compass-kompas-lupa-loupe.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    /* flex-direction: row; */
+}
+.content{
+    margin: 0 auto;
+    float:none;
+    width: 35vw;
+    background-color: black;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px #000;
+}
+.img{
+    width: 93vw;
+}
+
+.title{
+    margin-left: 15vw;
+    font-size: 3rem;
+    color: #c7c7c6;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.data{
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #ffffff; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.activ{
+    margin-right: 12vw;
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    overflow: hidden;
+    color: #c7c7c6;
+
+}
+
+.activ h3{
+    margin-right: 12vw;
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.button {
+    background: #c7c7c6;
+    border-color: transparent;
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #cc3600;
+  }
+
+
+@media (min-width: 600px) {
+    .container {
+        margin: 0;
+        height: 99vh;
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .content{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    
+    .img{
+        width: 50%;
+    }
+    
+    .title{
+        margin-left: 0;
+    }
+    
+    .data{
+        width: 800px;
+        display: flex;
+    }
+    
+    .info{
+        margin-left: 12vw;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .activ{
+        margin-right: 12vw;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    
+    .activ h3{
+        margin-right: 12vw;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .button {
+        background: #c7c7c6;
+        border-color: transparent;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        border: none;
+        border-radius: 20px;
+    }
+    
+}
